@@ -1,3 +1,7 @@
+/*FONTS*/
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
 /*RESET*/
 
 * {
@@ -9,6 +13,7 @@
 /*Body Styles*/
 
 body {
+  font-family: "Overpass", sans-serif;
   height: 100vh;
   background-color: #1e1e1e;
   display: grid;
@@ -21,8 +26,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 412px;
+  max-width: 412px;
   height: 416px;
+  margin: 10px;
   background-color: #262e38;
   border-radius: 20px;
   padding: 30px;
@@ -121,11 +127,4 @@ body {
   align-items: center;
   text-align: center;
   padding: 50px;
-}
-
-@media (max-width: 750px) {
-  .card {
-    width: 330px;
-    height: 360px;
-  }
 }
