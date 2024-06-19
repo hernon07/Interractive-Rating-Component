@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Interactive Rating Component</title>
+</head>
+
+<body>
+    <main class="card">
+        <div class="star-container">
+            <img src="images/icon-star.svg" alt="star icon">
+        </div>
+        <div class="text">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us
+                improve
+                our offering!</p>
+        </div>
+        <div class="rating">
+            <label for="1">1
+                <input type="radio" name="Rating" id="1" value="1">
+            </label>
+            <label for="2">2
+                <input type="radio" name="Rating" id="2" value="2">
+            </label>
+            <label for="3">3
+                <input type="radio" name="Rating" id="3" value="3">
+            </label>
+            <label for="4">4
+                <input type="radio" name="Rating" id="4" value="4">
+            </label>
+            <label for="5">5
+                <input type="radio" name="Rating" id="5" value="5">
+            </label>
+        </div>
+
+        <button class="btn">Submit</button>
+
+    </main>
+
+    <div class="card card-result none">
+        <img src="images/illustration-thank-you.svg" alt="illustration-thank-you">
+        <p id="rating-result"></p>
+        <h2 class="title">Thank you!</h2>
+        <p class="paragraph">We appreciate you taking the time to give a rating. If you ever need more support, don’t
+            hesitate to get in
+            touch!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
